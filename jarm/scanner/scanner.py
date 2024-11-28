@@ -36,7 +36,7 @@ class Scanner:
     async def scan_async(
         dest_host: str,
         dest_port: int,
-        timeout: int = 20,
+        timeout: float = 20,
         address_family=Connection.AddressFamily.AF_ANY,
         proxy: str = None,
         proxy_auth: str = None,
